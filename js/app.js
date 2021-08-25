@@ -58,7 +58,7 @@ function createItemsFunc(){
     return `<div class="city">
             <div class="city-info">
                 <p class="city-name"></p>
-                <div class="">
+                <div class="img-desc">
                     <img class="icon">
                     <p class="description"></p>
                 </div>

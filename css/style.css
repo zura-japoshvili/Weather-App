@@ -1,4 +1,5 @@
-body{
+.main-cont{
+    height: 100vh;
     background: url(../img/bg-img.png);
     background-repeat: repeat;
     display: flex;
@@ -11,6 +12,7 @@ body{
     height: 200px;
     height: fit-content;
     display: flex;
+    justify-content: center;
     border-radius: 15px;
     margin-top: 200px;
 }
@@ -116,10 +118,6 @@ body{
 }
 
 @media screen and (max-width: 550px) {
-    .content{
-        margin-top: 150px;
-        margin-left: 20px;
-    }
     .city{
         width: 400px;
         height: 220px;
@@ -142,9 +140,6 @@ body{
     }
     .humidity,.wind{
         font-size: 13px;
-    }
-    .btns{
-        left: 40px;
     }
     .btns p {
         font-size: 18px;
@@ -181,9 +176,6 @@ body{
     }
     .humidity,.wind{
         font-size: 11px;
-    }
-    .btns{
-        left: 20px;
     }
     .btns p {
         font-size: 15px;
